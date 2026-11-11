@@ -331,7 +331,8 @@
    (туп-туп 62→42Гц свип на 4.30/4.58 c вторым слоем) → splash_heart_v3.wav
    ПРЕДПРОСМОТР, на решение пользователя. Финальный pkg пересобран и проверен
    полным циклом (wav в пакете = approved по md5).
-32. GITHUB: создан приватный репозиторий github.com/sirmik060-cell/stamprescue
+32. GITHUB: репозиторий github.com/sirmik060-cell/stamprescue (публичный с
+   2026-11-11 по просьбе — скачивание релиза без логина)
    (git init -b master, коммит c0082eb, пуш токеном из hermes\.env GITHUB_TOKEN
    через GIT_ASKPASS — токен не светится в командной строке). .gitignore:
    models/*.onnx, dist/, build/, .venv/, result/, *.log, *.bak*, промежуточные

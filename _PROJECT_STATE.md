@@ -331,6 +331,13 @@
    (туп-туп 62→42Гц свип на 4.30/4.58 c вторым слоем) → splash_heart_v3.wav
    ПРЕДПРОСМОТР, на решение пользователя. Финальный pkg пересобран и проверен
    полным циклом (wav в пакете = approved по md5).
+32. GITHUB: создан приватный репозиторий github.com/sirmik060-cell/stamprescue
+   (git init -b master, коммит c0082eb, пуш токеном из hermes\.env GITHUB_TOKEN
+   через GIT_ASKPASS — токен не светится в командной строке). .gitignore:
+   models/*.onnx, dist/, build/, .venv/, result/, *.log, *.bak*, промежуточные
+   wav. В README раздел «Если запускаете из исходников»: ламу качать отдельно /
+   брать из установленной программы. Release v0.5 (id 442073215) + asset
+   StampRescue-0.5-setup.exe через uploads.github.com (curl -K конфиг-файл).
 ## Критичные грабли
 - SCHEMA-кортежи параметров: ровно 4 элемента (key,kind,a,b) — иначе ValueError в редакторе.
 - Файлы проекта местами CRLF: при программной замене читать с `newline=""` и матчить \r\n

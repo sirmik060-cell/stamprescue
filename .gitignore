@@ -1,0 +1,18 @@
+# большие артефакты
+models/*.onnx
+dist/
+build/
+# окружение и кэш
+.venv/
+__pycache__/
+*.pyc
+result/
+*.log
+# рабочие копии и логи
+*.bak
+*.bak[0-9]*
+crash_log.txt
+main_startup.log
+# промежуточные варианты звука (финал = assets/splash.wav)
+assets/splash_bass_v2.wav
+assets/splash_heart_v3.wav

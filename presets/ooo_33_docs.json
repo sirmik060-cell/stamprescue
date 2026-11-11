@@ -1,0 +1,118 @@
+{
+  "_name": "ООО — для документов 33 мм (дополнительная)",
+  "form": "circle",
+  "width_mm": 33,
+  "height_mm": 33,
+  "dpi": 300,
+  "rotation_deg": 0,
+  "noise": 16,
+  "corner_mm": 0,
+  "layers": [
+    {
+      "type": "ring",
+      "inset_mm": 0.3,
+      "thickness_mm": 0.5,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "ring",
+      "inset_mm": 1.4,
+      "thickness_mm": 0.3,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "arc_text",
+      "text": "ООО «РОМАШКА»",
+      "pos": "top",
+      "attract": "circle",
+      "auto_band": false,
+      "inset_mm": 2.8,
+      "vshift_mm": 0,
+      "ashift_mm": 0,
+      "size_mm": 2.4,
+      "w_pct": 100,
+      "h_pct": 100,
+      "spacing_mm": 0.4,
+      "font": "Arial",
+      "bold": true,
+      "flip": false,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "arc_text",
+      "text": "ДЛЯ ДОКУМЕНТОВ",
+      "pos": "bottom",
+      "attract": "circle",
+      "auto_band": false,
+      "inset_mm": 3.4,
+      "vshift_mm": 0,
+      "ashift_mm": 0,
+      "size_mm": 1.8,
+      "w_pct": 100,
+      "h_pct": 100,
+      "spacing_mm": 0.3,
+      "font": "Arial",
+      "bold": true,
+      "flip": false,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "pic_frame",
+      "glyph": "star",
+      "count": 2,
+      "phase_deg": 90,
+      "inset_mm": 2.4,
+      "size_mm": 1.8,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "center_text",
+      "lines": [
+        "ДОКУМЕНТ № ______",
+        "от «__» ______ 20__ г.",
+        "ПОДПИСЬ ______"
+      ],
+      "size_mm": 1.55,
+      "spacing_mm": 1.0,
+      "align": "center",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "w_pct": 100,
+      "h_pct": 100,
+      "font": "Arial",
+      "bold": false,
+      "plate_on": false,
+      "plate_pad_mm": 1,
+      "plate_color": [
+        40,
+        60,
+        190
+      ],
+      "color": [
+        40,
+        60,
+        190
+      ]
+    }
+  ]
+}

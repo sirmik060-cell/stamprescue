@@ -1,0 +1,117 @@
+{
+  "_name": "ООО — основная печать 38 мм (типовая)",
+  "form": "circle",
+  "width_mm": 38,
+  "height_mm": 38,
+  "dpi": 300,
+  "rotation_deg": 0,
+  "noise": 18,
+  "corner_mm": 0,
+  "layers": [
+    {
+      "type": "ring",
+      "inset_mm": 0.3,
+      "thickness_mm": 0.6,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "ring",
+      "inset_mm": 1.5,
+      "thickness_mm": 0.3,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "arc_text",
+      "text": "ООО «РОМАШКА»",
+      "pos": "top",
+      "attract": "circle",
+      "auto_band": false,
+      "inset_mm": 4.0,
+      "vshift_mm": 0,
+      "ashift_mm": 0,
+      "size_mm": 2.8,
+      "w_pct": 100,
+      "h_pct": 100,
+      "spacing_mm": 0.5,
+      "font": "Arial",
+      "bold": true,
+      "flip": false,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "arc_text",
+      "text": "г. ВОРОНЕЖ",
+      "pos": "bottom",
+      "attract": "circle",
+      "auto_band": false,
+      "inset_mm": 3.0,
+      "vshift_mm": 0,
+      "ashift_mm": 0,
+      "size_mm": 2.0,
+      "w_pct": 100,
+      "h_pct": 100,
+      "spacing_mm": 0.4,
+      "font": "Arial",
+      "bold": true,
+      "flip": false,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "pic_frame",
+      "glyph": "star",
+      "count": 2,
+      "phase_deg": 90,
+      "inset_mm": 2.6,
+      "size_mm": 2.2,
+      "color": [
+        40,
+        60,
+        190
+      ]
+    },
+    {
+      "type": "center_text",
+      "lines": [
+        "ИНН 7701234567",
+        "ОГРН 1157700000000"
+      ],
+      "size_mm": 1.7,
+      "spacing_mm": 0.7,
+      "align": "center",
+      "dx_mm": 0,
+      "dy_mm": 4.2,
+      "w_pct": 100,
+      "h_pct": 100,
+      "font": "Arial",
+      "bold": false,
+      "plate_on": false,
+      "plate_pad_mm": 1,
+      "plate_color": [
+        40,
+        60,
+        190
+      ],
+      "color": [
+        40,
+        60,
+        190
+      ]
+    }
+  ]
+}

@@ -28,8 +28,11 @@
 Модель `models/lama.onnx` (~200 МБ) в git не кладётся — файл слишком большой
 для GitHub. Варианты: взять её из установленной программы (папка
 `_internal\models\`), скачать установщик из Releases и распаковать, или
-попросить файл отдельно. Для запуска из исходников положите `lama.onnx`
-в папку `models/` рядом с `main.py`.
+собрать самому: `python tools/convert_lama_to_onnx.py models/lama.onnx` —
+скрипт сам скачает оригинальные веса LaMa (196 МБ):
+https://github.com/enesmsahin/simple-lama-inpainting/releases/download/v0.1.0/big-lama.pt
+Подробности — в `models\README.txt`. Для запуска из исходников положите
+`lama.onnx` в папку `models/` рядом с `main.py`.
 
 ## Как пользоваться (основной сценарий)
 
